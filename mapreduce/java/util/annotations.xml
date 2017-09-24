@@ -1,0 +1,5 @@
+<root>
+    <item name='java.util.TreeMap java.util.NavigableMap&lt;K,V&gt; descendingMap()'>
+        <annotation name='java.lang.Deprecated'/>
+    </item>
+</root>

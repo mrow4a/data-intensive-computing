@@ -1,0 +1,6 @@
+.idea/
+mapreduce/topten/target/
+mapreduce/topten/topten.iml
+mapreduce/wordcount/target/
+mapreduce/wordcount/wordcount.iml
+out/
