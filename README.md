@@ -48,4 +48,11 @@ wget http://training.data-artisans.com/trainingData/nycTaxiRides.gz
 
 In the IDE, run job `data-intensive-computing/flink/flink-java-project/src/main/java/org/apache/flink/dataintensive/AirportTrends.java` with argument  `--input /home/mrow4a/Projekty/data-intensive-computing/flink/nycTaxiRides.gz`
 
+# GraphX
+
+```
+docker pull jupyter/all-spark-notebook
+REPO=/home/mrow4a/Projekty/data-intensive-computing/graphx
+docker run -it --rm -p 8888:8888 --name SparkNotebook -v $REPO:/home/jovyan/work jupyter/all-spark-notebook
+```
 
